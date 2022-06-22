@@ -47,10 +47,38 @@ export const Miscellaneous = (props) => {
                     <div className="project">
                         <div className='project-header'>
                             <div className="project-title">
+                                <p><big><b>Memory Game</b></big></p>
+                                <p>Album covers based memory game</p>
+                                <p>JavaScript</p>
+                                <a href="https://github.com/malanski/memory-game"
+                                    title="Code and documentation at this repository" className='repository'>
+                                    <FontAwesomeIcon  icon={faGithubSquare} /> Repository link 
+                                </a>
+                            </div>
+                            <div className='tech-badge-card'>
+                                <FontAwesomeIcon icon={faGamepad} className="iconBall" />
+                                <FontAwesomeIcon icon={faCss3} className="iconBall" />
+                                <FontAwesomeIcon icon={faJs} className="iconBall" />
+                            </div>
+                        </div>
+
+                        <a href="https://malanski.github.io/memory-game/"
+                            className='deployLink' target="_blank" rel='noreferrer' title='Check the deploy link'>
+                            <div className="imageSpin">
+                                <img className="project-image"
+                                
+                                    src="https://github.com/malanski/images/raw/main/memory-game.png"
+                                    alt="project"/>
+                            </div>
+                        </a>
+                    </div>
+                    <div className="project">
+                        <div className='project-header'>
+                            <div className="project-title">
                                 <p><big><b>Poke-Store</b></big></p>
                                 <p>Consuming the pokapi - Pokémon API</p>
                                 <p>NextJs</p>
-                                <a href="https://github.com/malanski/poke-store-nexthttps://github.com/malanski/poke-store-next"
+                                <a href="https://github.com/malanski/poke-store-next"
                                     title="Code and documentation at this repository" className='repository'>
                                     <FontAwesomeIcon  icon={faGithubSquare} /> Repository link 
                                 </a>
