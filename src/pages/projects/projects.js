@@ -1,4 +1,4 @@
-import './miscellaneous.scss';
+import './projects.scss';
 
 import apiIcon from '../../../src/assets/APIlogo.png';
 
@@ -7,10 +7,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCss3, faCss3Alt, faGithubSquare, faHtml5, faJs, faReact, faSass, faWikipediaW } from '@fortawesome/free-brands-svg-icons';
 import { faCalculator, faDatabase, faGamepad, faList, faPerson, faSearch } from '@fortawesome/free-solid-svg-icons';
 
-export const Miscellaneous = (props) => {
+export const Projects = (props) => {
     return (
-        <div className='miscellaneous'>
-            <h2>Miscellaneous</h2>
+        <div className='projects'>
+            <h2>Projects</h2>
            
             <section className="projects-section">
                 <h3 className="projects-section-header">These are my projects:</h3>
